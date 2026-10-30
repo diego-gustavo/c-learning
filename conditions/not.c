@@ -2,10 +2,22 @@
 
 int main()
 {
-    int target = 9;
-    if (target != 10)
+    int alvo = 9;
+
+    // Operador de desigualdade / diferente de (!=)
+    if (alvo != 10)
     {
-        printf("Target is not equal to 10");
+        printf("O alvo não é igual a 10.\n");
     }
+
+    // Operador de negação lógica (!)
+    // Em C, 0 é considerado falso e qualquer valor diferente de 0 é verdadeiro.
+    int esta_chovendo = 0;
+
+    if (!esta_chovendo)
+    {
+        printf("Não está chovendo! Podemos sair.\n");
+    }
+
     return 0;
 }

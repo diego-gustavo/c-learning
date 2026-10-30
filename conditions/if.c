@@ -2,20 +2,22 @@
 
 int main()
 {
-    int foo = 1;
-    int bar = 2;
+    int a = 1;
+    int b = 2;
 
-    if (foo < bar)
+    // Demonstração das estruturas condicionais if, else if e else
+    if (a < b)
     {
-        printf("foo is smaller than bar.");
+        printf("a é menor que b.\n");
     }
-    else if (foo == bar)
+    else if (a == b)
     {
-        printf("foo is equal to bar.");
+        printf("a é igual a b.\n");
     }
     else
     {
-        printf("foo is greater than bar.");
+        printf("a é maior que b.\n");
     }
+
     return 0;
 }
